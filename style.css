@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&family=Sarala:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: rgb(28, 36, 68);
+    background: radial-gradient(circle, rgba(28, 36, 68, 1) 0%, rgba(8, 12, 20, 1) 100%);
+}
+
+.topo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background: rgba(0, 0, 0, 0.6)
+}
+
+.nav-img {
+    height: 72px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.nav-menu-item {
+    font-family: 'sarala', sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.principal-main {
+    margin-bottom: 48px;
+    border-top: 0.4px solid white;
+}
+
+.principal-geral {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.principal-div {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.principal-titulo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: aliceblue
+}
+
+.principal-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: aliceblue;
+}
+
+.principal-btn {
+    width: 180px;
+    height: 60px;
+    box-shadow: inset 0px 0px 0px 0px #9fb4f2;
+    background: linear-gradient(to bottom, #5f749a 5%, #3d5f89 100%);
+    background-color: #7892c2;
+    border-radius: 20px;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Sarala', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.principal-btn:hover {
+    background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+    background-color: #476e9e;
+}
+
+.principal-btn:active {
+    position: relative;
+    top: 1px;
+}
+
+.principal-img {
+    height: 460px;
+    width: 300px;
+}
+
+.secundario-geral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.secundario-titulo {
+    border-top: 0.4px solid #fff;
+    padding-top: 48px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: aliceblue;
+    margin-bottom: 16px;
+}
+
+.secundario-paragrafo {
+    font-family: 'sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+}
+
+.fim {
+    padding: 32px;
+    border-top: 0.4px solid #fff;
+    background: rgba(0, 0, 0, 0.6)
+}
+
+.fim-img {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
